@@ -12,14 +12,14 @@ You can use this file to come out with additional tests.
 """
 
 # %% import 
-import find_episodes as epi 
+import solutions.find_episodes as epi 
 
 # %% Constants 
 LEN_PER_EPISODE = 2
 ORDINAL_ENDINGS = ['first','second','third']
 
 # %% Tests 
-test_num = 4
+test_num = 0
 
 # Default value for min_segment 
 min_segment = 2  # default, unless overidden 

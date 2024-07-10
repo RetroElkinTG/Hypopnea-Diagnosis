@@ -26,7 +26,7 @@ flow_rate_all = [-4.5,  0.5,  4.5, -0.1,  -4.3,
              
 # %% Parameters for diagnostic algorithm
 
-test_num = 1
+test_num = 3
 
 if test_num == 0: # Expected output: 'Not enough data'
     # flow_rate has 19 data points but minimum required is 20

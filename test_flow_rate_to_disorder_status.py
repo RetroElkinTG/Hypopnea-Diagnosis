@@ -17,7 +17,7 @@ import flow_rate_to_disorder_status as status
 # %% Test cases 
 
 # Choose the test number by changing the variable test_num  
-test_num = 1
+test_num = 0
 
 if test_num == 0:
     flow_rate = [-2.1, -3.1, 1.0, -2.3, 4.4,  5.1,  

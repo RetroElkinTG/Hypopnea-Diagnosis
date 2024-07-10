@@ -14,7 +14,7 @@ http://jcsm.aasm.org/ViewAbstract.aspx?pid=29203
 """
 
 # %% import function 
-import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt'''
 import run_diagnostic as diag  
 
 # %% read flow_rate from file
@@ -39,6 +39,7 @@ episodes = diag.run_diagnostic(flow_rate,segment_len,interval,threshold,min_segm
 print('The episodes returned by your code are',episodes)
 print('The expected episodes are',expected_answer)
 
+'''
 # %%  Plotting
 x_values = range(len(flow_rate))    
 x_min_max = [min(x_values),max(x_values)]
@@ -52,3 +53,4 @@ plt.xlabel('index')    # label for x-axis
 plt.ylabel('flow rate')   # label for y-axis
 plt.title('Data for testing') # title of the graph 
 plt.show()  # to display the graph 
+'''
